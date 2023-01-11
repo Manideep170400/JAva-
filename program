@@ -1,0 +1,17 @@
+import java.*;
+class Solution
+{
+public static void main(String args[])
+{
+int n=100;
+String s=new String(n);
+if(n==Integer.parse(n))
+{
+System.out.println("good job");
+}
+else
+{
+System.out.println("wrong answer");
+}
+}
+}
